@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#041022">
+    <LinearLayout
+        android:id="@+id/detailview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="#9CBDEE">
+
+
+        <TextView
+            android:id="@+id/labelusid"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="User Id:" />
+
+        <TextView
+            android:id="@+id/usID"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="USER ID" />
+
+
+        <TextView
+            android:id="@+id/labelname"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/usNAME"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="ADDRESS" />
+
+        <TextView
+            android:id="@+id/labeltotal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Total:" />
+
+        <TextView
+            android:id="@+id/TOTAL"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:text="TOTAL"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/labelstatus"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="0dp"
+            android:text="Status:"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/STATUS"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="STATUS" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.grocery.daniel.newlayout.MainActivity">
+
+
+
+    <item
+        android:id="@+id/action_cart"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_cc"
+        android:title="addcart"/>
+    <item
+        android:id="@+id/myorder"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_order"
+        android:title="myorder"/>
+
+
+    <item android:id="@+id/account"
+        android:title="Account"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_logout"
+        android:title="Refresh"/>
+
+
+
+</menu>

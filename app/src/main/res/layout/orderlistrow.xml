@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/checkout_cart_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="2dp"
+        android:background="#0663E9">
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="211dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="0dp"
+            android:text="Title"
+            android:textColor="#040404"
+            android:textSize="25dip"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/Rs_checkout"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="325dp"
+            android:layout_marginTop="-60dp"
+            android:text="Rs."
+            android:textColor="#040404"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+        <TextView
+            android:id="@+id/checkoutprice"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textColor="#040404"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="0dp"
+            android:textSize="15dip"
+            android:text="Price"
+            android:padding="1dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/kgcount"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="-70dp"
+            android:text="Quantity"
+            android:textSize="15dp"
+            android:typeface="sans"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kg"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="0dp"
+            android:text="count"
+            android:typeface="sans"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

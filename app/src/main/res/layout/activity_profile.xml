@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.grocery.daniel.kitchenkart.ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/details_of_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+       android:layout_marginStart="8dp"
+        android:layout_marginEnd="10dp">
+
+
+        <TextView
+            android:id="@+id/labelusname"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/usname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="NAME" />
+
+        <TextView
+            android:id="@+id/labelemail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Email:" />
+
+        <TextView
+            android:id="@+id/emailid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:layout_marginTop="0dp"
+            android:text="EMAIL"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/labeladdress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Address:" />
+
+        <TextView
+            android:id="@+id/addres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="ADDRESS" />
+
+
+        <TextView
+            android:id="@+id/labelnumber"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="0dp"
+            android:text="Mobile:"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/Mobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="MOBILE" />
+
+        <Button
+            android:id="@+id/buttonedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:text="Edit Detail" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/update_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="10dp">
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/oldpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Old password"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textWebPassword" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="New Password"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textWebPassword" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/repeatpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirm_password"
+                android:inputType="textWebPassword" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:hint="@string/address_line"
+                android:gravity="top" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/save_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="SAVE"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

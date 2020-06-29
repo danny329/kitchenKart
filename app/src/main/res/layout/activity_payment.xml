@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_payment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32473777"
+    tools:context="com.grocery.daniel.kitchenkart.paymentActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CARD OR NET BANKING"
+        android:layout_alignParentBottom="true"
+        android:onClick="onRadioButtonClicked"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:id="@+id/cod"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CASH ON DELIVERY"
+        android:layout_alignBottom="@+id/card"
+        android:onClick="onRadioButtonClicked"
+        android:layout_alignEnd="@+id/TotalPrice" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/TotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:text="text content" />
+
+
+</RelativeLayout>

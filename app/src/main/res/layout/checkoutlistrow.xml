@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingBottom="0.5dp"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/checkout_cart_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="1dp"
+        android:background="#0663E9">
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="156dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="0dp"
+            android:text="Title"
+            android:textColor="#040404"
+            android:padding="2dp"
+            android:textSize="25dip"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/Rs_checkout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="-90dp"
+            android:text="Rs."
+            android:textColor="#040404"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+        <TextView
+            android:id="@+id/checkoutprice"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="#040404"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="-5dp"
+            android:textSize="15dip"
+            android:text="Price"
+            android:padding="10dp"
+            android:typeface="sans"/>
+
+
+        <TextView
+            android:id="@+id/kg"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="-30dp"
+            android:text="count"
+            android:typeface="sans"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/kgcount"
+            android:layout_width="72dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="-66dp"
+            android:text="Quantity"
+            android:textSize="15dp"
+            android:typeface="sans"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/removecartbutton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-10dp"
+            app:srcCompat="@drawable/ic_del"
+            android:layout_below="@+id/price"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

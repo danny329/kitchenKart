@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5B7CF"
+    tools:context="com.grocery.daniel.kitchenkart.ViewCustomerActivity">
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="CUSTOMER ID:"
+        android:id="@+id/labelcid"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="60dp"
+        android:text="SUBMIT" />
+
+    <Button
+        android:id="@+id/viewall"
+        android:layout_width="88dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="60dp"
+        android:text="VIEW ALL" />
+
+
+    <LinearLayout
+        android:id="@+id/forlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listview4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/labelusname"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/usname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="NAME" />
+
+
+        <TextView
+            android:id="@+id/labeladdress"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Address:" />
+
+        <TextView
+            android:id="@+id/addres"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="ADDRESS" />
+
+        <TextView
+            android:id="@+id/labelemail"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Email:" />
+
+        <TextView
+            android:id="@+id/emailid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="EMAIL"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/labelnumber"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="0dp"
+            android:text="Mobile:"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/Mobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="MOBILE" />
+
+    </LinearLayout>
+
+</RelativeLayout>
